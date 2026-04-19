@@ -215,7 +215,7 @@ def run_eval(model, tokenizer, prompts: list[dict], verbose: bool = False) -> li
             with torch.no_grad():
                 outputs = model.generate(
                     **inputs,
-                    max_new_tokens=1800,
+                    max_new_tokens=4096,
                     temperature=0.1,
                     do_sample=False,
                     pad_token_id=tokenizer.eos_token_id,
