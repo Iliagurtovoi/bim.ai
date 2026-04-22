@@ -51,3 +51,10 @@ logs/
 .env
 *.key
 credentials.json
+
+# Звено 4
+converter/.env
+*.rfa
+*.rvt.backup*
+~$*.rvt
+~$*.rfa
