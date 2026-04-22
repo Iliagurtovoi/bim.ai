@@ -1,0 +1,5 @@
+{
+    "_comment": "Mapping from MEP family category+host to Revit .rft template. Filled in after real inventory of C:\\ProgramData\\Autodesk\\RVT 2025\\Family Templates\\",
+    "_base_dir_env": "REVIT_TEMPLATES_DIR",
+    "_status": "pending_inventory"
+}
